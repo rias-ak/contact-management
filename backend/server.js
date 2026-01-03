@@ -15,9 +15,6 @@ app.use(cors({
 }));
 app.use(express.json());
 
-// // MongoDB Connection
-// const MONGODB_URI = 'mongodb+srv://haruta3d:haruta3d@cluster0.1iiry80.mongodb.net/?appName=Cluster0';
-
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
