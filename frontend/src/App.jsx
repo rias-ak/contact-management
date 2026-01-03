@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Trash2, User, Mail, Phone, MessageSquare, CheckCircle } from 'lucide-react';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api/contacts';
+const API_URL = "https://contact-management-app-cqqg.onrender.com/api/contacts"|| 'http://localhost:5000/api/contacts';
 
 export default function ContactManagement() {
   const [contacts, setContacts] = useState([]);
